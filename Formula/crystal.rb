@@ -4,8 +4,8 @@ class Crystal < Formula
   license "Apache-2.0"
 
   stable do
-    url "https://github.com/crystal-lang/crystal/archive/1.1.0.tar.gz"
-    sha256 "7475f699dd64dcc2cf126feddf3eeffb426e1df2e8d80547df0540eaa1775170"
+    url "https://github.com/crystal-lang/crystal/archive/1.1.1.tar.gz"
+    sha256 "add4b07f23de6e493a17d951e4cff38e1cbf2356cc4a3f642687c769f9ba7d12"
 
     resource "shards" do
       url "https://github.com/crystal-lang/shards/archive/v0.15.0.tar.gz"
@@ -44,9 +44,9 @@ class Crystal < Formula
 
   resource "boot" do
     on_macos do
-      url "https://github.com/crystal-lang/crystal/releases/download/1.0.0/crystal-1.0.0-1-darwin-x86_64.tar.gz"
+      url "https://github.com/crystal-lang/crystal/releases/download/1.0.1/crystal-1.0.1-1-darwin-x86_64.tar.gz"
       version "1.0.0-1"
-      sha256 "29019828d32df9807a3f08fb7354fa0e44a5ad8b000eccd1dea114f891cbc006"
+      sha256 "4627cdd7a28a9bbf493826cfdc2815f475deace6746476438211cea0726abeb2"
     end
     on_linux do
       url "https://github.com/crystal-lang/crystal/releases/download/1.0.0/crystal-1.0.0-1-linux-x86_64.tar.gz"
