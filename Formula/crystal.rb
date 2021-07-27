@@ -44,9 +44,9 @@ class Crystal < Formula
 
   resource "boot" do
     on_macos do
-      url "https://github.com/crystal-lang/crystal/releases/download/1.0.1/crystal-1.0.1-1-darwin-x86_64.tar.gz"
+      url "https://github.com/crystal-lang/crystal/releases/download/1.0.0/crystal-1.0.0-1-darwin-x86_64.tar.gz"
       version "1.0.0-1"
-      sha256 "4627cdd7a28a9bbf493826cfdc2815f475deace6746476438211cea0726abeb2"
+      sha256 "29019828d32df9807a3f08fb7354fa0e44a5ad8b000eccd1dea114f891cbc006"
     end
     on_linux do
       url "https://github.com/crystal-lang/crystal/releases/download/1.0.0/crystal-1.0.0-1-linux-x86_64.tar.gz"
